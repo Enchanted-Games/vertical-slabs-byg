@@ -1,38 +1,30 @@
 {
-  "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+    "schemaVersion": 1,
+    "id": "evs-byg",
+    "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
+    "name": "Enchanted Vertical Slabs - Biomes You'll Go Edition",
+    "description": "A simple, vanilla-like mod that adds Vertical Slabs from the Oh The Biomes You'll Go mod.",
+    "authors": ["Enchanted Games [programming]"],
+    "contact": {
+        "homepage": "https://verticalslabs.enchanted.games/index.html?from=betterend",
+        "sources": "https://github.com/Enchanted-Games/vertical-slabs",
+        "issues": "https://github.com/Enchanted-Games/vertical-slabs/issues"
+    },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+    "license": "CC0-1.0",
+    "icon": "assets/evs-byg/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+    "environment": "*",
+    "entrypoints": {
+        "main": ["games.enchanted.VerticalSlabsBYG"]
+    },
 
-  "depends": {
-    "fabricloader": ">=0.14.6",
-    "fabric": "*",
-    "minecraft": "~1.19",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+    "depends": {
+        "fabricloader": ">=0.11.3",
+        "fabric": "*",
+        "minecraft": ">=1.18",
+        "java": ">=16",
+        "byg": "*"
+    }
 }

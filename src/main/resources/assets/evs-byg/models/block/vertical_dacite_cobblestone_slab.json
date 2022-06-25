@@ -1,0 +1,6 @@
+{
+    "parent": "evs:block/vertical_slab_all",
+    "textures": {
+        "all": "byg:block/dacite_cobblestone"
+    }
+}

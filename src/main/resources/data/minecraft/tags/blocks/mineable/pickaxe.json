@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "evs-byg:vertical_dacite_slab", //
+        "evs-byg:vertical_dacite_brick_slab",
+        "evs-byg:vertical_dacite_cobblestone_slab",
+        "evs-byg:vertical_dacite_tile_slab"
+    ]
+}

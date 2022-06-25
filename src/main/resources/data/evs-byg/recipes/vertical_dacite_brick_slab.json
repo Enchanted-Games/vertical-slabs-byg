@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["#", "#", "#"],
+    "key": {
+        "#": {
+            "item": "byg:dacite_bricks"
+        }
+    },
+    "result": {
+        "item": "evs-byg:vertical_dacite_brick_slab",
+        "count": 6
+    }
+}
